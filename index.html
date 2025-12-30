@@ -169,6 +169,24 @@
       box-shadow: 0 0 10px var(--neon), 0 0 20px var(--neon), 0 0 40px var(--neon);
       background: rgba(255,0,0,0.1);
     }
+    .discord-btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #000000;
+      color: #ffffff;
+      text-decoration: none;
+      border: 1px solid var(--neon);
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 0 10px var(--neon);
+      transition: all 0.3s ease;
+      margin-top: 0.5rem;
+    }
+    .discord-btn:hover {
+      background: rgba(255,0,0,0.2);
+      transform: translateY(-2px);
+      box-shadow: 0 0 20px var(--neon);
+    }
     section.card {
       background: rgba(0,0,0,0.7);
       padding: 1rem;
@@ -302,7 +320,10 @@
 
     <section id="contato" class="card">
       <h2>Contato</h2>
-      <p>E-mail: <a href="mailto:seuemail@dominio.com">ursulinoallan@gmail.com</a></p>
+      <p>Entre em contato conosco através do nosso servidor do Discord:</p>
+      <a href="https://discord.gg/qfR6HbJqmY" target="_blank" rel="noopener" class="discord-btn">
+        🎮 Entrar no Discord
+      </a>
     </section>
 
     <section id="privacidade" class="card">
